@@ -3,6 +3,7 @@
   <head>
     <meta charset='UTF-8'/>
     <title>Jacob Walter Lab 5: HTML Forms</title>
+    <link rel="stylesheet" href="bulma/css/bulma.css"/>
     <link rel='stylesheet' href='styles.css'/>
   </head>
 
@@ -11,14 +12,61 @@
             <div class="container">
                 <div class="columns">
                     <div class="column is-full">
-                        <div class="box title">Jacob Walter Lab 5: HTML Forms
+                        <div class="box title">Jacob Walter Lab 5: 
+                            HTML Forms
                         </div>
+                    </div>
+
+                    <div class="columns is-mobile is-multiline is-centered">
+                        <div class="box">
+                            <div class="field">
+                                <label class="label">First Name</label>
+                                <div class="control">
+                                <input class="input" type="text">
+                                </div>
+                            </div>
+                            
+                            <div class="field">
+                                <label class="label"> Food Preference</label>
+                                <div class="control">
+                                <input class="input" type="email">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <label class="label">Veggie or Vegan</label>
+                                <label class="radio">
+                                    <input type="radio" name="question">
+                                    Veggie
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question">
+                                    Vegan
+                                </label>
+                                </div>
+                            </div>
+                            
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <form action="form.html">
+                                    <button class="button is-link">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columns is-mobile is-multiline is-centered">
+                        <div class="column is-narrow"></div>
+                            <div class="box">
+                                <p class="bd-notification is-primary">This is 
+                                going to be something in two weeks.</p>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>
         </div>
-
-        <script src="script.js"></script>
     
     </body>
 </html>
